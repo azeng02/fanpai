@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/game.css">
+    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
+</head>
+<body>
+    <!-- 提示部分 -->
+    <h1 class="page-title">万圣节卡片配对游戏</h1>
+    <div class="overlay-text visible">点击开始</div>
+    <div id="gameOverText" class="overlay-text">游戏结束
+        <span class="overlay-text-small">重新开始</span>
+    </div>
+    <div id="victory-text" class="overlay-text">胜利
+        <span class="overlay-text-small">点击重新开始</span>
+    </div>
+    <!-- 游戏部分 -->
+    <div id="gc"  class="game-container">
+        <div class="game-info-container">
+            <div class="game-info">时间:
+                <span id="time-remaining">100</span>
+            </div>
+            <div class="game-info">翻拍:
+                <span id="flips">0</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
